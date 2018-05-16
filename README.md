@@ -3,4 +3,4 @@
 
 General Golang/Lambda noodlings, also configuring Circle CI and Slack for some ol' SlackOps.
 
-More text here
+Some more text in here, which is getting added in via a feature branch + PR!
