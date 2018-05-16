@@ -27,7 +27,7 @@ func Handler(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse,
 	return events.APIGatewayProxyResponse{
 		Body:       "Hello " + req.Body,
 		StatusCode: http.StatusOK,
-	}, nil
+	}
 }
 
 func instrument(tag string) func() {
